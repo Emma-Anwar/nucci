@@ -34,6 +34,9 @@ function Home() {
 
   return (
     <div className="home">
+      <header className="App-header">
+        <img src={`${process.env.PUBLIC_URL}/header-image.jpg`} className="App-header-image" alt="Nucci Header" />
+      </header>
       <h1>Welcome to Nucci</h1>
       <section className="crypto-address-section">
         <h2>Future of Crypto</h2>
@@ -62,6 +65,7 @@ function Home() {
 }
 
 export default Home;
+
 
 
 

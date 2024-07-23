@@ -1,4 +1,16 @@
 /* src/pages/Home.css */
+.App-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .App-header-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+  }
+  
+
 .home {
     text-align: center;
     padding: 20px;
