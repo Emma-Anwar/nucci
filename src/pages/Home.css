@@ -8,21 +8,24 @@
     margin-bottom: 40px;
   }
   
-  .address-box {
-    display: inline-flex;
+/* src/pages/Home.css */
+.address-box {
+    display: flex;
     align-items: center;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 10px;
-    max-width: 400px;
+    max-width: 600px; /* Increase this value to make the box longer */
     margin: 0 auto;
+    justify-content: space-between; /* Align content to both sides */
   }
   
   .address-text {
     margin: 0;
     padding-right: 10px;
+    word-break: break-all; /* Ensure long addresses break into multiple lines */
   }
   
   .copy-button {
@@ -42,6 +45,7 @@
   .copy-button:hover {
     background-color: #0056b3;
   }
+  
   
   .carousel-section {
     margin-top: 40px;
