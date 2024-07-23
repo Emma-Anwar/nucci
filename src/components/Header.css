@@ -1,0 +1,19 @@
+/* src/components/Header.css */
+.header {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  .header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .header nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem;
+  }
+  
